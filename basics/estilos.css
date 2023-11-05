@@ -1,0 +1,28 @@
+ *{
+text-align: center;
+background-color: rgb(228, 228, 227);
+}
+.container{
+    width: 300px;
+    background-color: rgb(80, 88, 85);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 5%;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+}
+button{
+    color: rgb(184, 198, 197);
+    background-color:black;
+    margin-bottom: 10%;
+    margin-left: 20px;
+    border-radius: 20%;
+    padding: 5px;
+}
+input{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}

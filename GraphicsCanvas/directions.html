@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas y dibujos</title>
+    <style>
+        body{
+            font-family: 'Nunito', sans-serif;
+            width: 100wh;
+            height: 100vh;
+            display: grid;
+            background-color: rgb(168, 164, 170);
+        }
+        .container{
+            width: 60%;
+            color: white;
+            text-align: center;
+        }
+        .container h1{
+            margin: 20px;
+        }
+        canvas {
+            background-color: rgb(167, 100, 0);
+        }
+        .arrow-button {
+            background-color: #f0f0f0;
+            color: #333;
+            font-size: 20px;
+            border: 1px solid #ccc;
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>todos vs yo</h1>
+        <canvas id="canva" width="600" height="400"></canvas>
+    </div>
+    <div>
+        <button class="arrow-button" id="left">←</button>
+        <button class="arrow-button" id="up">↑</button>
+        <button class="arrow-button" id="right">→</button> <hr>
+        <button class="arrow-button" id="down">↓</button>
+    </div>
+    <script src="./directions.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores Gamer+</title>
+
+    <style>
+        body{
+            font-family: 'Nunito', sans-serif;
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        .container{
+            width: 400px;
+            padding: 20px;
+        }
+        .container *{
+            width: 100%;
+        }
+        button {
+            background-color: #be0e0e;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.7s ease, box-shadow 0.3s ease;
+        }
+    
+        button:hover {
+            background-color: #ff0055;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Set colors</h1>
+        <h2>Rojo</h2>
+        <input type="range" id="red">
+        <br>
+        <h2>Verde</h2>
+        <input type="range" id="green">
+        <br>
+        <h2>Azul</h2>
+        <input type="range" id="blue">
+        <br>
+        <h2>Transparencia</h2>
+        <input type="range" id="trans">
+        <br>
+    </div>
+    <script src="./rgba.js"></script>
+</body>
+</html>

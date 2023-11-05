@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menú Creativo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap');
+        body {
+            color: #ffffff;
+            background-image: url(./fondo.jpg);
+            text-align: center;
+            font-family: "Nunito", sans-serif;
+        }
+
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .menu-button {
+            text-decoration: none;
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .menu-button:hover {
+            transition: 0.5s;
+            background-color: #9912c7;
+        }
+
+        .menu-button:active {
+            background-color: #ffffff;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Proyectos JS</h1>
+    <div class="menu-container">
+        <a class="menu-button" href="./RGB/rgb.html">RGB Random</a>
+        <a class="menu-button" href="./RGBA/rgba.html">RGBA Modificable</a>
+        <a class="menu-button" href="./Galeria/galeria.html">Galeria</a>
+        <a class="menu-button" href="./Tareas/tareas.html">Lista de tareas</a>
+        <a class="menu-button" href="./GraphicsCanvas/dibujo.html">Dibujo</a>
+        <a class="menu-button" href="./GraphicsCanvas/rebota.html">pantalla de espera</a>
+        <a class="menu-button" href="./GraphicsCanvas/directions.html">Todos vs yo</a>
+        <a class="menu-button" href="./GraphicsCanvas/snake.html">Serpiente</a>
+        <a class="menu-button" href="./RickandMorty/index.html">Rick and Morty</a>
+        <a class="menu-button" href="./ApiClima/index.html">API Clima</a>
+    </div>
+</body>
+</html>

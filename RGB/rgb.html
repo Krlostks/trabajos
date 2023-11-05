@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores gamer</title>
+    <link rel="stylesheet" href="../basics/styl.css">
+    <style>
+        body{
+            font-family: 'Nunito', sans-serif;
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        .container{
+            width: 400px;
+            height: 300px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: rgb(179, 125, 255);
+        }
+        button {
+            background-color: #be0e0e;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+    
+        button:hover {
+            background-color: #ff0055;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Colores background RGB</h1>
+        <h2></h2>
+        <button id="btnColor">Cambiar color</button>
+    </div>
+    <script src="./rgb.js"></script>
+</body>
+</html>
